@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7347587331527506465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2899311288373474683}
+  - component: {fileID: 7744577325350912157}
+  - component: {fileID: 8864799810248835378}
+  m_Layer: 0
+  m_Name: SceneConfigurator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2899311288373474683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347587331527506465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 505889992961954776}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7744577325350912157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347587331527506465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4b807505ebc4b419f9c666d824424e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _agentList: {fileID: 11400000, guid: 7adecd8949958b24a939c0a968f8788a, type: 2}
+  _spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _agentsFacadeSettings:
+    AgentFacadeSettings:
+      AgentUIPrefab: {fileID: 1035896617383502, guid: d8b78cd1d1ba5e04e921f03f350cd301,
+        type: 3}
+      AgentTweakingUISettings:
+        Slider: {fileID: 1516041478257234, guid: d99c5b01b12225d49aacc10f9b8665a4,
+          type: 3}
+        Textbox: {fileID: 1819191147385856, guid: 286ff8a6ab9414dbcb2a8cd07fd2086c,
+          type: 3}
+        Checkbox: {fileID: 1816070050479130, guid: bb4ae31822abe7a4e95d36433221d3c9,
+          type: 3}
+        Dropdown: {fileID: 1678601996300274, guid: 62033271192cbb24ab8bb80de4cd5fd0,
+          type: 3}
+      CameraPreviewPrefab: {fileID: 1457295008524344, guid: 531f36ede158749e1aedb157c1276889,
+        type: 3}
+      Managers: []
+      CameraSettingsProviderSettings:
+        CaptureCameraSettings: {fileID: 11400000, guid: 8c547f9a899e1564a942b1302a2dbfe5,
+          type: 2}
+        SegmentationCameraSettings: {fileID: 11400000, guid: b2e448a44c5ab1340b4eb3fd33966fda,
+          type: 2}
+        DepthCameraSettings: {fileID: 11400000, guid: 58afc94abe8b8954096d6f85d98af58a,
+          type: 2}
+        InfraredCameraSettings: {fileID: 11400000, guid: 6a0f3db14a9657a48940ada0e629b21f,
+          type: 2}
+      LidarShader: {fileID: 7200000, guid: 62b04a6448e4dd741ad19657edcc9530, type: 3}
+  _mapOriginSettings: {fileID: 11400000, guid: 640d1171400dad24b9a41fd9b0259af4, type: 2}
+  _obstaclesHolder: {fileID: 8935000652406361227}
+  _obstaclesList:
+  - {fileID: 2887902670709589941, guid: 5eedfe8d2ac556b418b0acdeaf9062d6, type: 3}
+  - {fileID: 1973567224956754, guid: c13e5b2be31335c49b917d20f1c8086e, type: 3}
+  - {fileID: 7119514429971578958, guid: a754aa5252b4ef74da29b37559afef8d, type: 3}
+  _landingPlatformsList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &8864799810248835378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347587331527506465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb7acb95c0ffa4ab519eefe8a1f475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8935000652406361227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 505889992961954776}
+  m_Layer: 0
+  m_Name: ObstacleHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &505889992961954776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935000652406361227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2899311288373474683}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Com_GrassTotal_Hills
+  m_Shader: {fileID: 4800000, guid: 84a4c5342421c734fb76653aa7e906f5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex0:
+        m_Texture: {fileID: 2800000, guid: 62210cd567fa73249937740927238da2, type: 3}
+        m_Scale: {x: 1024, y: 1024}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex1:
+        m_Texture: {fileID: 2800000, guid: 763788560e5ff304fb1dd0fc197bb5bd, type: 3}
+        m_Scale: {x: 1024, y: 1024}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 2800000, guid: 1f07fbe10d269fd41bb525ea71f52021, type: 3}
+        m_Scale: {x: 256, y: 256}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 2800000, guid: e3fcc4e73b88dc743bd303fadc28275b, type: 3}
+        m_Scale: {x: 256, y: 256}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex4:
+        m_Texture: {fileID: 2800000, guid: 4bf6251d24c9b6246a53f507e53e161b, type: 3}
+        m_Scale: {x: 1024, y: 1024}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 48086890913edf845882d6b4eb4ebc00, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap0:
+        m_Texture: {fileID: 2800000, guid: 2bb3fb117875439409f2dac2df162e8d, type: 3}
+        m_Scale: {x: 1024, y: 1024}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap1:
+        m_Texture: {fileID: 2800000, guid: 8668d9906ea53f14b92639b54ad93043, type: 3}
+        m_Scale: {x: 256, y: 256}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap2:
+        m_Texture: {fileID: 2800000, guid: d84e2137416406849af41ed5c110696f, type: 3}
+        m_Scale: {x: 256, y: 256}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap3:
+        m_Texture: {fileID: 2800000, guid: 8668d9906ea53f14b92639b54ad93043, type: 3}
+        m_Scale: {x: 16, y: 16}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 89, y: 194}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 505cbf4db797a1240a306a10e1914f89, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Metallic: 0
+    - _NormalStrength: 1
+    - _OcclusionStrength: 0
+    - _Scale: 1
+    - _Smoothness: 0
+    - _TileCount: 4
+    m_Colors:
+    - _Color0: {r: 0.89506185, g: 1, b: 0.8820755, a: 1}

@@ -1,0 +1,400 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcApi";
+
+service API {
+    rpc SpawnAgent(SpawnAgentRequest) returns (SpawnAgentResponse) {}
+    rpc SpawnObstacle(SpawnObstacleRequest) returns (SpawnObstacleResponse) {}
+    rpc AgentOnCollision(AgentOnCollisionRequest) returns (AgentOnCollisionResponse) {}
+    rpc AgentOnMinDistance(AgentOnMinDistanceRequest) returns (AgentOnMinDistanceResponse) {}
+    rpc AgentGetBBox(AgentGetBBoxRequest) returns (AgentGetBBoxResponse) {}
+    rpc RemoveAgent(RemoveAgentRequest) returns (RemoveAgentResponse) {}
+
+    rpc LoadScene(LoadSceneRequest) returns (LoadSceneResponse) {}    
+    rpc GetCurrentScene(GetCurrentSceneRequest) returns (GetCurrentSceneResponse) {}
+
+    rpc AgentGetSensors(AgentGetSensorsRequest) returns (AgentGetSensorsResponse) {}    
+    rpc SensorGetTransform(SensorGetTransformRequest) returns (SensorGetTransformResponse) {}
+    rpc SensorSetState(SensorSetStateRequest) returns (SensorSetStateResponse) {}    
+    rpc SensorGetState(SensorGetStateRequest) returns (SensorGetStateResponse) {}
+    rpc SensorGpsData(SensorGpsDataRequest) returns (SensorGpsDataResponse) {}
+    
+    rpc LandingPlatformControl(LandingPlatformControlRequest) returns (LandingPlatformControlResponse) {}
+    rpc EmitFailure(EmitFailureRequest) returns (EmitFailureResponse) {}
+    rpc GetSpawn(GetSpawnRequest) returns (GetSpawnResponse) {}
+    rpc MapFromGps(MapFromGpsRequest) returns (MapFromGpsResponse) {} 
+    rpc MapToGps(MapToGpsRequest) returns (MapToGpsResponse) {}
+    rpc Reset(ResetRequest) returns (ResetResponse) {}    
+    rpc Raycast(RaycastRequest) returns (RaycastResponse) {}            
+    rpc TimeOfDaySet(TimeOfDaySetRequest) returns (TimeOfDaySetResponse) {}    
+    rpc TimeOfDayGet(TimeOfDayGetRequest) returns (TimeOfDayGetResponse) {}   
+    rpc WeatherSet(WeatherSetRequest) returns (WeatherSetResponse) {}     
+    rpc WeatherGet(WeatherGetRequest) returns (WeatherGetResponse) {}    
+    rpc Run(RunRequest) returns (RunResponse) {}
+
+    rpc SubscribeOnCollisionEvent(CollisionEventRequest) returns (stream CollisionEvent) {}
+    rpc SubscribeOnMinDistanceEvent(OnMinDistanceEventRequest) returns (stream OnMinDistanceEvent) {}
+
+    rpc UnsubscribeAll(UnsubscribeAllRequest) returns (UnsubscribeAllResponse) {}
+}
+
+message Error {
+    string message = 1;
+}
+
+message Vector3 {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+message Transform {
+    Vector3 position = 1;
+    Vector3 rotation = 2;
+}
+
+message State {
+    Transform transform = 1;
+    Vector3 velocity = 2;
+    Vector3 angularVelocity = 3;
+}
+
+message BoundingBox {
+    Vector3 min = 1;
+    Vector3 max = 2;
+}
+
+message Agent {
+    string uid = 1;
+    Transform transform = 2;
+}
+
+message CommonSensorProperties {
+    string id = 1;
+    string name = 2;
+    float publishRate = 3;
+}
+
+message Gps {
+    double northing = 1;
+    double easting = 2;
+    double latitude = 3;
+    double longitude = 4;
+    double altitude = 5;
+    double orientation = 6;
+}
+
+message VideoSensor {
+    CommonSensorProperties common = 1;
+    int32 width = 2;
+    int32 height = 3;
+    float fieldOfView = 4;
+    float nearClipPlane = 5;
+    float farClipPane = 6;
+    enum Type {
+        RGB = 0;
+        DEPTH = 1;
+        SEMANTIC = 2;
+        INFRARED = 3;
+    }
+    Type type = 7;
+	repeated float intrinsics_matrix = 8 [packed = true];
+    repeated float distortion = 9 [packed = true];
+    string format = 10;
+    optional string linkedVideoSensorUID = 11;
+}
+
+message LidarSensor {
+    CommonSensorProperties common = 1;
+    float minDistance = 2;
+    float maxDistance = 3;
+    int32 rayCount = 4;
+    int32 measurementsPerRotation = 6;
+    float fieldOfView = 7;
+    float centerAngle = 8;
+    bool compensated = 9;
+}
+
+message GPSSensor {
+    CommonSensorProperties common = 1;
+}
+
+message IMUSensor {
+    CommonSensorProperties common = 1;
+}
+
+message UnsubscribeAllRequest {
+
+}
+
+message UnsubscribeAllResponse {
+
+}
+
+message CollisionEventRequest {
+}
+
+message CollisionEvent {
+    string agent = 1;
+    Vector3 contact = 2;
+    optional string other = 3;
+}
+
+message OnMinDistanceEventRequest {
+}
+
+message OnMinDistanceEvent {
+    string agent = 1;
+    Vector3 position = 2;
+    optional string other = 3;
+}
+
+message LoadSceneRequest {
+    string scene = 1;
+}
+
+message LoadSceneResponse {
+    optional Error error = 1;
+}
+
+message AgentOnCollisionRequest {
+    string uid = 1;
+}
+
+message AgentOnCollisionResponse {
+    optional Error error = 1;
+}
+
+message AgentOnMinDistanceRequest {
+    string uid = 1;
+} 
+
+message AgentOnMinDistanceResponse {
+    optional Error error = 1;
+}
+
+message RemoveAgentRequest {
+    string uid = 1;
+}
+
+message RemoveAgentResponse {
+    optional Error error = 1;
+}
+
+message GetSpawnRequest {
+}
+
+message GetSpawnResponse {    
+    optional Error error = 1;
+    repeated Transform spawns = 2;
+}
+
+message MapFromGpsRequest {
+    optional double northing = 1;
+    optional double easting = 2;
+    optional double latitude = 3;
+    optional double longitude = 4;
+    optional float altitude = 5;
+    optional float orientation = 6;
+}
+
+message MapFromGpsResponse {
+    optional Error error = 1;
+    Transform transform = 2;
+}
+
+message SensorSetStateRequest {
+    string uid = 1;
+    bool enabled = 2;
+}
+
+message SensorSetStateResponse {
+    optional Error error = 1;
+}
+
+message SensorGetStateRequest {
+    string uid = 1;
+}
+
+message SensorGetStateResponse {    
+    optional Error error = 1;
+    bool isEnabled = 2;
+}
+
+message ResetRequest {
+}
+
+message ResetResponse {
+    optional Error error = 1;
+}
+
+message SensorGetTransformRequest {
+    string uid = 1;
+}
+
+message SensorGetTransformResponse {
+    optional Error error = 1;
+    Transform transform = 2;
+}
+
+message WeatherSetRequest {
+    float wetness = 1;
+    float rain = 2;
+    float fog = 3;
+}
+
+message WeatherSetResponse {
+    optional Error error = 1;
+}
+
+message SensorGpsDataRequest {
+    string uid = 1;
+}
+
+message SensorGpsDataResponse {
+    optional Error error = 1;
+    Gps gps = 2;
+}
+
+message WeatherGetRequest {
+}
+
+message WeatherGetResponse {
+    optional Error error = 1;
+}
+
+message RaycastRequest {
+    int32 layerMask = 1;
+    Vector3 origin = 2;
+    Vector3 direction = 3;
+    float maxDistance = 4;
+}
+
+message RaycastResponse {
+    optional Error error = 1;
+    float distance = 2;
+    Vector3 point = 3;
+    Vector3 normal = 4;
+}
+
+message SpawnAgentRequest {
+    State state = 1;
+    enum Type {
+        UNKNOWN = 0;
+        AGENT = 1;
+   }
+    Type type = 2;
+    string name = 3;
+}
+
+message SpawnObstacleRequest {
+    Transform transform = 1;
+    enum Type {
+        UNKNOWN = 0;
+        NPC = 1;
+        OBSTACLE = 2;
+    }
+    optional Type type = 2;    
+    string name = 3;
+}
+
+message SpawnAgentResponse {    
+    optional Error error = 1;
+    string uid = 2;
+}
+
+message SpawnObstacleResponse {    
+    optional Error error = 1;
+    string uid = 2;
+}
+
+message AgentGetBBoxRequest {
+    string uid = 1;
+}
+
+message AgentGetBBoxResponse {
+    optional Error error = 1;
+    BoundingBox box = 2;
+}
+
+message MapToGpsRequest {
+    Transform transform = 1;
+}
+
+message MapToGpsResponse {
+    optional Error error = 1;
+    Gps gps = 2;
+}
+
+message TimeOfDaySetRequest {
+    float fixed = 1;
+    bool time = 2;
+}
+
+message TimeOfDaySetResponse {
+    optional Error error = 1;
+}
+
+message AgentGetSensorsRequest {
+    string uid = 1;
+}
+
+message AgentGetSensorsResponse {
+    optional Error error = 1;
+    repeated VideoSensor videoSensors = 2;
+    repeated LidarSensor lidarSensors = 3;
+    repeated GPSSensor gpsSensors = 4;
+    repeated IMUSensor imuSensors = 5;
+}
+
+message TimeOfDayGetRequest {
+}
+
+message TimeOfDayGetResponse {
+    optional Error error = 1;
+}
+
+message GetCurrentSceneRequest {
+}
+
+message GetCurrentSceneResponse {
+    optional Error error = 1;
+    string scene = 2;
+}
+
+message RunRequest {
+    float timeLimit = 1;
+}
+
+message RunResponse {
+    optional Error error = 1;
+}
+
+message LandingPlatformControlRequest {
+    enum State {
+        CLOSE = 0;
+        OPEN = 1;
+    }
+
+    int32 platformIndex = 1; 
+    State platformState = 2;
+}
+
+message LandingPlatformControlResponse {
+    optional Error error = 1;
+}
+
+message EmitFailureRequest {
+    enum FailureType {
+        ENGINE = 0;
+        PROPELLER = 1;
+        ACCUMULATOR = 2;
+    }
+
+    int32 deviceIndex = 1; 
+    FailureType failureType = 2;
+}
+
+message EmitFailureResponse {
+    optional Error error = 1;
+}

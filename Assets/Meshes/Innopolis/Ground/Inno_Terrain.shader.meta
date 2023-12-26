@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8df8f373ac21de14db82158b40116a4d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Control: {fileID: 2800000, guid: f46a87d39413aed48b93f94462b958b1, type: 3}
+  - _Splat3: {fileID: 2800000, guid: 00033906e9d3a3c44be68926302be5a1, type: 3}
+  - _Splat2: {fileID: 2800000, guid: 00033906e9d3a3c44be68926302be5a1, type: 3}
+  - _Splat1: {fileID: 2800000, guid: 763788560e5ff304fb1dd0fc197bb5bd, type: 3}
+  - _Splat0: {fileID: 2800000, guid: 5c2c9ca5ac69d034d9e2cd553ecc7735, type: 3}
+  - _MainTex: {fileID: 2800000, guid: 1f07fbe10d269fd41bb525ea71f52021, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

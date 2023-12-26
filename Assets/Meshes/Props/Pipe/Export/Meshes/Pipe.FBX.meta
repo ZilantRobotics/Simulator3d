@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: e64e58ebaea218f48b08ec1782435154
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: StaticMeshActor_21
+    100004: StaticMeshActor_215
+    100006: StaticMeshActor_215_MeshPart0
+    100008: StaticMeshActor_215_MeshPart1
+    100010: StaticMeshActor_215_MeshPart10
+    100012: StaticMeshActor_215_MeshPart11
+    100014: StaticMeshActor_215_MeshPart12
+    100016: StaticMeshActor_215_MeshPart13
+    100018: StaticMeshActor_215_MeshPart14
+    100020: StaticMeshActor_215_MeshPart15
+    100022: StaticMeshActor_215_MeshPart16
+    100024: StaticMeshActor_215_MeshPart17
+    100026: StaticMeshActor_215_MeshPart18
+    100028: StaticMeshActor_215_MeshPart19
+    100030: StaticMeshActor_215_MeshPart2
+    100032: StaticMeshActor_215_MeshPart20
+    100034: StaticMeshActor_215_MeshPart21
+    100036: StaticMeshActor_215_MeshPart22
+    100038: StaticMeshActor_215_MeshPart3
+    100040: StaticMeshActor_215_MeshPart4
+    100042: StaticMeshActor_215_MeshPart5
+    100044: StaticMeshActor_215_MeshPart6
+    100046: StaticMeshActor_215_MeshPart7
+    100048: StaticMeshActor_215_MeshPart8
+    100050: StaticMeshActor_215_MeshPart9
+    100052: StaticMeshActor_27
+    100054: StaticMeshActor_28
+    100056: StaticMeshActor_29
+    100058: StaticMeshActor_30
+    100060: StaticMeshActor_31
+    100062: StaticMeshActor_32
+    100064: StaticMeshActor_33
+    100066: StaticMeshActor_334
+    100068: StaticMeshActor_34
+    100070: StaticMeshActor_38
+    100072: StaticMeshActor_494
+    400000: //RootNode
+    400002: StaticMeshActor_21
+    400004: StaticMeshActor_215
+    400006: StaticMeshActor_215_MeshPart0
+    400008: StaticMeshActor_215_MeshPart1
+    400010: StaticMeshActor_215_MeshPart10
+    400012: StaticMeshActor_215_MeshPart11
+    400014: StaticMeshActor_215_MeshPart12
+    400016: StaticMeshActor_215_MeshPart13
+    400018: StaticMeshActor_215_MeshPart14
+    400020: StaticMeshActor_215_MeshPart15
+    400022: StaticMeshActor_215_MeshPart16
+    400024: StaticMeshActor_215_MeshPart17
+    400026: StaticMeshActor_215_MeshPart18
+    400028: StaticMeshActor_215_MeshPart19
+    400030: StaticMeshActor_215_MeshPart2
+    400032: StaticMeshActor_215_MeshPart20
+    400034: StaticMeshActor_215_MeshPart21
+    400036: StaticMeshActor_215_MeshPart22
+    400038: StaticMeshActor_215_MeshPart3
+    400040: StaticMeshActor_215_MeshPart4
+    400042: StaticMeshActor_215_MeshPart5
+    400044: StaticMeshActor_215_MeshPart6
+    400046: StaticMeshActor_215_MeshPart7
+    400048: StaticMeshActor_215_MeshPart8
+    400050: StaticMeshActor_215_MeshPart9
+    400052: StaticMeshActor_27
+    400054: StaticMeshActor_28
+    400056: StaticMeshActor_29
+    400058: StaticMeshActor_30
+    400060: StaticMeshActor_31
+    400062: StaticMeshActor_32
+    400064: StaticMeshActor_33
+    400066: StaticMeshActor_334
+    400068: StaticMeshActor_34
+    400070: StaticMeshActor_38
+    400072: StaticMeshActor_494
+    2300000: StaticMeshActor_21
+    2300002: StaticMeshActor_215_MeshPart0
+    2300004: StaticMeshActor_215_MeshPart1
+    2300006: StaticMeshActor_215_MeshPart10
+    2300008: StaticMeshActor_215_MeshPart11
+    2300010: StaticMeshActor_215_MeshPart12
+    2300012: StaticMeshActor_215_MeshPart13
+    2300014: StaticMeshActor_215_MeshPart14
+    2300016: StaticMeshActor_215_MeshPart15
+    2300018: StaticMeshActor_215_MeshPart16
+    2300020: StaticMeshActor_215_MeshPart17
+    2300022: StaticMeshActor_215_MeshPart18
+    2300024: StaticMeshActor_215_MeshPart19
+    2300026: StaticMeshActor_215_MeshPart2
+    2300028: StaticMeshActor_215_MeshPart20
+    2300030: StaticMeshActor_215_MeshPart21
+    2300032: StaticMeshActor_215_MeshPart22
+    2300034: StaticMeshActor_215_MeshPart3
+    2300036: StaticMeshActor_215_MeshPart4
+    2300038: StaticMeshActor_215_MeshPart5
+    2300040: StaticMeshActor_215_MeshPart6
+    2300042: StaticMeshActor_215_MeshPart7
+    2300044: StaticMeshActor_215_MeshPart8
+    2300046: StaticMeshActor_215_MeshPart9
+    2300048: StaticMeshActor_27
+    2300050: StaticMeshActor_28
+    2300052: StaticMeshActor_29
+    2300054: StaticMeshActor_30
+    2300056: StaticMeshActor_31
+    2300058: StaticMeshActor_32
+    2300060: StaticMeshActor_33
+    2300062: StaticMeshActor_334
+    2300064: StaticMeshActor_34
+    2300066: StaticMeshActor_38
+    2300068: StaticMeshActor_494
+    3300000: StaticMeshActor_21
+    3300002: StaticMeshActor_215_MeshPart0
+    3300004: StaticMeshActor_215_MeshPart1
+    3300006: StaticMeshActor_215_MeshPart10
+    3300008: StaticMeshActor_215_MeshPart11
+    3300010: StaticMeshActor_215_MeshPart12
+    3300012: StaticMeshActor_215_MeshPart13
+    3300014: StaticMeshActor_215_MeshPart14
+    3300016: StaticMeshActor_215_MeshPart15
+    3300018: StaticMeshActor_215_MeshPart16
+    3300020: StaticMeshActor_215_MeshPart17
+    3300022: StaticMeshActor_215_MeshPart18
+    3300024: StaticMeshActor_215_MeshPart19
+    3300026: StaticMeshActor_215_MeshPart2
+    3300028: StaticMeshActor_215_MeshPart20
+    3300030: StaticMeshActor_215_MeshPart21
+    3300032: StaticMeshActor_215_MeshPart22
+    3300034: StaticMeshActor_215_MeshPart3
+    3300036: StaticMeshActor_215_MeshPart4
+    3300038: StaticMeshActor_215_MeshPart5
+    3300040: StaticMeshActor_215_MeshPart6
+    3300042: StaticMeshActor_215_MeshPart7
+    3300044: StaticMeshActor_215_MeshPart8
+    3300046: StaticMeshActor_215_MeshPart9
+    3300048: StaticMeshActor_27
+    3300050: StaticMeshActor_28
+    3300052: StaticMeshActor_29
+    3300054: StaticMeshActor_30
+    3300056: StaticMeshActor_31
+    3300058: StaticMeshActor_32
+    3300060: StaticMeshActor_33
+    3300062: StaticMeshActor_334
+    3300064: StaticMeshActor_34
+    3300066: StaticMeshActor_38
+    3300068: StaticMeshActor_494
+    4300000: StaticMeshActor_30
+    4300002: StaticMeshActor_27
+    4300004: StaticMeshActor_29
+    4300006: StaticMeshActor_28
+    4300008: StaticMeshActor_215_MeshPart0
+    4300010: StaticMeshActor_215_MeshPart1
+    4300012: StaticMeshActor_215_MeshPart2
+    4300014: StaticMeshActor_215_MeshPart3
+    4300016: StaticMeshActor_215_MeshPart4
+    4300018: StaticMeshActor_215_MeshPart5
+    4300020: StaticMeshActor_215_MeshPart6
+    4300022: StaticMeshActor_215_MeshPart7
+    4300024: StaticMeshActor_215_MeshPart8
+    4300026: StaticMeshActor_215_MeshPart9
+    4300028: StaticMeshActor_215_MeshPart10
+    4300030: StaticMeshActor_215_MeshPart11
+    4300032: StaticMeshActor_215_MeshPart12
+    4300034: StaticMeshActor_215_MeshPart13
+    4300036: StaticMeshActor_215_MeshPart14
+    4300038: StaticMeshActor_215_MeshPart15
+    4300040: StaticMeshActor_215_MeshPart16
+    4300042: StaticMeshActor_215_MeshPart17
+    4300044: StaticMeshActor_215_MeshPart18
+    4300046: StaticMeshActor_215_MeshPart19
+    4300048: StaticMeshActor_215_MeshPart20
+    4300050: StaticMeshActor_215_MeshPart21
+    4300052: StaticMeshActor_215_MeshPart22
+    4300054: StaticMeshActor_21
+    4300056: StaticMeshActor_31
+    4300058: StaticMeshActor_32
+    4300060: StaticMeshActor_33
+    4300062: StaticMeshActor_34
+    4300064: StaticMeshActor_334
+    4300066: StaticMeshActor_38
+    4300068: StaticMeshActor_494
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Build_Industrial_Materials_M_KPP_1_IC
+    second: {fileID: 2100000, guid: e8f2b83a08c62a34d9645b619ee56eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Build_Industrial_Materials_M_Menu_Windows_1_IC
+    second: {fileID: 2100000, guid: 532401655c54be94c95970614981267f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Ext_Industrial_Zone_1_Materials_M_Industrial_Zone_Masked_10_IC
+    second: {fileID: 2100000, guid: 07493aaf1e4c5c94a80dd229f740ce58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Ext_Industrial_Zone_1_Materials_M_Industrial_Zone_Masked_8_IC
+    second: {fileID: 2100000, guid: 32d0628373d645d4f9a058dd3895f057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Ext_Industrial_Zone_1_Materials_M_Industrial_Zone_Masked_9_IC
+    second: {fileID: 2100000, guid: c8ef0869ee23182479f78002459fa4d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Ext_Industrial_Zone_2_Materials_M_Industrial_Metal_1_IC
+    second: {fileID: 2100000, guid: aeab85934955e6f498c4b5c2e844ceaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Ext_Industrial_Zone_2_Materials_M_Industrial_zone_2_Covers_4_IC
+    second: {fileID: 2100000, guid: 9bce7112a39823242a14adb35dcf44e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapED4M_Env_Ext_Industrial_Zone_2_Materials_M_Tubing_1_IC
+    second: {fileID: 2100000, guid: b0ee721cca8be8c4387f53bc3725d628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TEM2_MapRS2P_Textures_Concrete_1_Materials_M_Concrete_4_IC
+    second: {fileID: 2100000, guid: 3b6c56d145c325c4d8c97f6208616c25, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

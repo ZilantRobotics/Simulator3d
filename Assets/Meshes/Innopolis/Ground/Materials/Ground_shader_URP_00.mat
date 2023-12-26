@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ground_shader_URP_00
+  m_Shader: {fileID: 4800000, guid: 2a15ac0c5cfb09442961757654bb8316, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Additionalmask:
+        m_Texture: {fileID: 2800000, guid: c5ce34383534b354aa95d2a07e8db58d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Additionalmask2:
+        m_Texture: {fileID: 2800000, guid: 6ef674bb0194efd4d9c4dcabf7bb56b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Additionalnormalmap:
+        m_Texture: {fileID: 2800000, guid: 7f1e56ce2df8ca34f8107adcef8e664d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Baselayeralbedo:
+        m_Texture: {fileID: 2800000, guid: b7347016a028b8c4b9d561267cc2ea01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Baselayermaskmap:
+        m_Texture: {fileID: 2800000, guid: 652061efa40d63a45a6735ab3f75da64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Baselayernormal:
+        m_Texture: {fileID: 2800000, guid: 1ca95c381cf70354ca7daaffa8dd8300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rotationmask:
+        m_Texture: {fileID: 2800000, guid: 1b8bc279600e7014e8dbf6fc850da464, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snowmaskmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer1albedo:
+        m_Texture: {fileID: 2800000, guid: b5cc404a23fb6c64fb3f740a5abaa55a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer1maskmap:
+        m_Texture: {fileID: 2800000, guid: 75d3465f0f2add446af67a64b1be2e60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer1normal:
+        m_Texture: {fileID: 2800000, guid: 577513f5b1d7a3e439f2135fa4d4463e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer2albedo:
+        m_Texture: {fileID: 2800000, guid: 84c0c261b9d605e4f820dc93a916a71d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer2maskmap:
+        m_Texture: {fileID: 2800000, guid: 792157c39fa3c194c9d196f61d4d2086, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer2normal:
+        m_Texture: {fileID: 2800000, guid: 4af7930040200824883252a11cd6b84b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer3albedo:
+        m_Texture: {fileID: 2800000, guid: 331534fa380ae6a4c93745fca0a4e7f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer3maskmap:
+        m_Texture: {fileID: 2800000, guid: 39f22fc7f00c6794ba2468e6a86a463f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer3normal:
+        m_Texture: {fileID: 2800000, guid: 753d993dbd3e4064499d211eeb4e7367, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer4albedo:
+        m_Texture: {fileID: 2800000, guid: 62c130a685680b342942e373beea9f26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer4maskmap:
+        m_Texture: {fileID: 2800000, guid: 75d3465f0f2add446af67a64b1be2e60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1layer4normal:
+        m_Texture: {fileID: 2800000, guid: 0be54a495186ec24786f81f4e199a857, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer1albedo:
+        m_Texture: {fileID: 2800000, guid: 331534fa380ae6a4c93745fca0a4e7f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer1maskmap:
+        m_Texture: {fileID: 2800000, guid: 39f22fc7f00c6794ba2468e6a86a463f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer1normal:
+        m_Texture: {fileID: 2800000, guid: 753d993dbd3e4064499d211eeb4e7367, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer2albedo:
+        m_Texture: {fileID: 2800000, guid: 642b5558f4fa27a42b1e407bae05849f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer2maskmap:
+        m_Texture: {fileID: 2800000, guid: 20afc07616c73f54d9b3c5181f92672b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer2normal:
+        m_Texture: {fileID: 2800000, guid: 9708304a51e4e2a498261693e2ddbe7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer3albedo:
+        m_Texture: {fileID: 2800000, guid: bbe356bb31d692441affbb7c51df5b7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer3maskmap:
+        m_Texture: {fileID: 2800000, guid: 0e3dffa343985a14489bbae38751abd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer3normal:
+        m_Texture: {fileID: 2800000, guid: d9e377b7a34baa34587a128503a2ca14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer4albedo:
+        m_Texture: {fileID: 2800000, guid: dc5d6d3aaa9c0e847a7690c8fe6ca757, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer4maskmap:
+        m_Texture: {fileID: 2800000, guid: 0d1db460622c91942b145f7fd9bdce2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2layer4normal:
+        m_Texture: {fileID: 2800000, guid: 772b60301409a4a428986792b57a5832, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splatmap:
+        m_Texture: {fileID: 2800000, guid: 75128c44005b7e14bb441d859b870a90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splatmap2:
+        m_Texture: {fileID: 2800000, guid: 4c65546c85ae869449e4b0cf83498da2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOblend: 0
+    - _Additionalmask2rotation: 4
+    - _Additionalmask2saturation: -0.053
+    - _Additionalmask2tiling: 0.01
+    - _Additionalmask2value: 0.05
+    - _Additionalmaskrotastion: 0.04
+    - _Additionalmasksaturation: 0.181
+    - _Additionalmasktiling: 0.03
+    - _Additionalmaskvalue: 0.071
+    - _Additionalnormalscale: 1
+    - _Additionalnormaltiling: 0.2555297
+    - _AlphaCutoff: 0.5
+    - _Baselayerhue: 0
+    - _Baselayernormalscale: 0.4
+    - _Baselayersaturation: 0.25
+    - _Baselayertiling: 0.18
+    - _Baselayervalue: -0.06
+    - _Generalalbedovalue: 0
+    - _Generalnormalstrength: 1.42
+    - _Generalroughness: 1
+    - _Rotationmasktiling: 100
+    - _Shader_api: 0
+    - _Snowmasktiling: 0.2555297
+    - _Snownormalscale: 0
+    - _Snowtiling: 0.2555297
+    - _Splat1layer1contrast: 0.73
+    - _Splat1layer1hue: 0
+    - _Splat1layer1normalscale: 1
+    - _Splat1layer1saturation: -0.31
+    - _Splat1layer1tiling: 0.148
+    - _Splat1layer1value: -0.06
+    - _Splat1layer2contrast: 1.08
+    - _Splat1layer2hue: 0
+    - _Splat1layer2normalscale: 1
+    - _Splat1layer2saturation: -0.09
+    - _Splat1layer2tiling: 0.325
+    - _Splat1layer2value: 0.06
+    - _Splat1layer3contrast: 1.31
+    - _Splat1layer3hue: 0
+    - _Splat1layer3normalscale: 1
+    - _Splat1layer3saturation: -0.44
+    - _Splat1layer3tiling: 0.429
+    - _Splat1layer3value: 0.24
+    - _Splat1layer4contrast: 0.8
+    - _Splat1layer4hue: 0
+    - _Splat1layer4normalscale: 1
+    - _Splat1layer4saturation: 0.08
+    - _Splat1layer4tiling: 0.5
+    - _Splat1layer4value: -0.16
+    - _Splat2Layer1hue: 0
+    - _Splat2Layer1saturation: 0
+    - _Splat2Layer1value: 0.08
+    - _Splat2Layer2hue: 0
+    - _Splat2Layer2saturation: -0.17
+    - _Splat2Layer2value: -0.01
+    - _Splat2Layer3hue: 0
+    - _Splat2Layer3saturation: -0.15
+    - _Splat2Layer3value: 0.09
+    - _Splat2Layer4hue: 0
+    - _Splat2Layer4saturation: -0.04
+    - _Splat2Layer4value: 0.01
+    - _Splat2layer1contrast: 0.44
+    - _Splat2layer1normalscale: 1
+    - _Splat2layer1tiling: 0.25
+    - _Splat2layer2contrast: 1
+    - _Splat2layer2normalscale: 1
+    - _Splat2layer2tiling: 0.2555297
+    - _Splat2layer3contrast: 1
+    - _Splat2layer3normalscale: 1
+    - _Splat2layer3tiling: 0.3
+    - _Splat2layer4contrast: 1
+    - _Splat2layer4normalscale: 1
+    - _Splat2layer4tiling: 0.29
+    - _Wetnessintensity: 0.35
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Snow_direction: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

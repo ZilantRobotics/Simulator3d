@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2a15ac0c5cfb09442961757654bb8316
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Splatmap: {fileID: 2800000, guid: aebdddee04b84c647ab0ff8abd76aefa, type: 3}
+  - _Splatmap2: {fileID: 2800000, guid: 75df401136c5f8045bb43520570a6f20, type: 3}
+  - _Snow_normal: {fileID: 2800000, guid: 2d439278d616cdd45b5e5486428ba781, type: 3}
+  - _Snow_mask: {fileID: 2800000, guid: 2d439278d616cdd45b5e5486428ba781, type: 3}
+  - _Additionalmask2: {fileID: 2800000, guid: 2d439278d616cdd45b5e5486428ba781, type: 3}
+  - _Additionalmask: {fileID: 2800000, guid: 2d439278d616cdd45b5e5486428ba781, type: 3}
+  - _Snow_albedo: {fileID: 2800000, guid: 2d439278d616cdd45b5e5486428ba781, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

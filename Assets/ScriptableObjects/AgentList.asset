@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0684b18b6081a0c44be556ecd4b7ae89, type: 3}
+  m_Name: AgentList
+  m_EditorClassIdentifier: 
+  Agents:
+  - Name: Quadcopter-M690
+    Icon: {fileID: 21300000, guid: 35a9ffce74151574e97f9800947ceeb5, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: 79343c9cba389544eae76571dfc5991b,
+      type: 3}
+  - Name: Quadcopter-M690-Cargo
+    Icon: {fileID: 21300000, guid: 35a9ffce74151574e97f9800947ceeb5, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: 6f4a33ec9dd18704ab583df44e941eed,
+      type: 3}
+  - Name: Octocopter-Amazon
+    Icon: {fileID: 21300000, guid: 1192cdcd4f0716145a4b8f15fd22e8d8, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: 23be9157b1199854aa70b348776fd47e,
+      type: 3}
+  - Name: Octocopter-Amazon01
+    Icon: {fileID: 21300000, guid: b2a452c17fd7038438b221aa1bb5ec0f, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: e2cafc1e097d5374ea99f78cf8185cea,
+      type: 3}
+  - Name: Vtol-T300
+    Icon: {fileID: 21300000, guid: a4cbe8008d553e9479d3190f99d6aa28, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: ff6d0e6cc415bc646821167ffc7fce60,
+      type: 3}
+  - Name: Vtol-TFM15
+    Icon: {fileID: 21300000, guid: 6a88a1ec0c03a9b42a6aae9dee923eb9, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: aa06f8a7fd66f844f9e7460133de4706,
+      type: 3}
+  - Name: Vtol-Seeker
+    Icon: {fileID: 21300000, guid: 856a1f8f10770694eb0504fe89a06dd3, type: 3}
+    Prefab: {fileID: 8466975073925997274, guid: 7dc7de7622396a9478a905b93c718922,
+      type: 3}

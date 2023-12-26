@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2823389015015868126
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_BricksRed _AO
+  m_Shader: {fileID: -6465566751694194690, guid: 174f52a9c5de0a446af70b8878c6a20c,
+    type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 174f52a9c5de0a446af70b8878c6a20c,
+    type: 3}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DETAIL_SCALED
+  - _NORMALMAP
+  - _OCCLUSIONMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOTexture:
+        m_Texture: {fileID: 2800000, guid: 946e1f5e3104a464ba44b411114297ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AO_Texture:
+        m_Texture: {fileID: 2800000, guid: 946e1f5e3104a464ba44b411114297ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ba39465e488e51641afa89daeab9e6f7, type: 3}
+        m_Scale: {x: 3.5, y: 3.5}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 28557130da033854495834906d712b73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 505cbf4db797a1240a306a10e1914f89, type: 3}
+        m_Scale: {x: 0.02, y: 0.1}
+        m_Offset: {x: 0, y: 0.4}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.6, y: 0.6}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ba39465e488e51641afa89daeab9e6f7, type: 3}
+        m_Scale: {x: 3.5, y: 3.5}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: ba39465e488e51641afa89daeab9e6f7, type: 3}
+        m_Scale: {x: 3.5, y: 3.5}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3.5, y: 3.5}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 28557130da033854495834906d712b73, type: 3}
+        m_Scale: {x: 3.5, y: 3.5}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: fed13b078044c5d4893c64a1a4b12b48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Variation_Texture:
+        m_Texture: {fileID: 2800000, guid: 2eb2f285701917b4daef04bcd7386239, type: 3}
+        m_Scale: {x: 0.06, y: 0.7}
+        m_Offset: {x: 0, y: 0.4}
+    m_Ints: []
+    m_Floats:
+    - _AO_Adjust: 0
+    - _AO_Strength: 0.607
+    - _DetailAlbedoMapScale: 0.45
+    - _DetailNormalMapScale: 1
+    - _Glossiness: 0.43
+    - _GlossyReflections: 1
+    - _MetallicStrength: 0
+    - _NormalStrength: 0.5
+    - _QueueControl: 0
+    - _Smoothness: 0.239
+    - _Variation_Strength: 0.215
+    m_Colors:
+    - _BaseColor: {r: 0.9716981, g: 0.9327767, b: 0.8937789, a: 1}
+    - _Color: {r: 0.9716981, g: 0.9327767, b: 0.8937789, a: 1}
+    - _Remap_AO: {r: 0, g: 0.56, b: 0, a: 0}
+    - _Tile: {r: 3.5, g: 3.5, b: 0, a: 0}
+    - _Tile_AO: {r: 1, g: 1, b: 0, a: 0}
+    - _Tile_Variation: {r: 0.02, g: 0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []

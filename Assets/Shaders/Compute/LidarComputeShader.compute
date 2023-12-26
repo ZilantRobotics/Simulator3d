@@ -1,0 +1,41 @@
+#pragma kernel CSMain
+
+Texture2D<float4> Data;
+StructuredBuffer<float3> BottomLefts;
+StructuredBuffer<float3> DeltaXs;
+StructuredBuffer<float3> DeltaYs;
+RWStructuredBuffer<float4> PointCloud;
+
+uint Width;
+uint SegmentWidth;
+uint Height;
+
+float3 Origin;
+
+[numthreads(8, 8, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{    
+    float4 pixel = Data[id.xy];
+    float distance = pixel.x;
+    float intensity = pixel.y;
+
+    if (distance == 0)
+    {
+        PointCloud[id.x * Height + id.y] = float4(0, 0, 0, 0);
+    }
+    else
+    {
+        distance += 0.01;
+        uint segmentIndex = id.x / SegmentWidth;
+        uint2 c = id.xy;
+        c.x %= SegmentWidth;
+        float3 bottomLeft = BottomLefts[segmentIndex];
+        float3 deltaX = DeltaXs[segmentIndex];
+        float3 deltaY = DeltaYs[segmentIndex];
+        float3 direction = bottomLeft + deltaX * c.x + deltaY * c.y;
+        float3 position = Origin + normalize(direction) * distance;
+        position.y += 0.01;
+        
+        PointCloud[id.x * Height + id.y] = float4(position, intensity);
+    }
+}

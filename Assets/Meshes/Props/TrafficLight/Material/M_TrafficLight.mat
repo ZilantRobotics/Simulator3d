@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_TrafficLight
+  m_Shader: {fileID: 4800000, guid: b6e987644e4e4bc42aea4dcd1708cf7f, type: 3}
+  m_ShaderKeywords: _ARROW_RIGHT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    InfraredType: Standard
+    SegmentationType: Standard
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a5e00bc19cbe19f43927d582d76883ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DPLH_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 535efb9ba14ac3f4fbb47ad69db9a894, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 22f10dc0776d509408e2bd7785568ae5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 2800000, guid: 3f360a7ebde5ea24286a11b777355b42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive_Color:
+        m_Texture: {fileID: 2800000, guid: ad53846e4351916449122ff19878434c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FogLong_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LRSR_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0740e2a7b608b7344b87d03a63b60016, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 53f111b061437e746b914c7c1d3db715, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Arrow_Blink: 0
+    - _Arrow_On: 0
+    - _Arrow_Right: 1
+    - _BlinkingSpeed: 2
+    - _BumpScale: 1
+    - _Daylights: 0
+    - _EmissionStrength: 2
+    - _Emissive_Strength: 3
+    - _Fog_Lapms: 0
+    - _Glossiness: 0.957
+    - _Green_Blink: 0
+    - _Green_On: 0
+    - _Highbeam: 0
+    - _LeftTurn: 0
+    - _LongTruck: 0
+    - _Lowbeam: 0
+    - _Metallic: 1
+    - _OcclusionStrength: 1
+    - _Parking_Lights: 0
+    - _Pedestrian_Blink: 0
+    - _Pedestrian_Go: 0
+    - _Pedestrian_Stop: 0
+    - _Rear: 0
+    - _Red_Blink: 0
+    - _Red_Light: 0
+    - _Red_On: 0
+    - _RightTurn: 0
+    - _Smoothness: 1
+    - _Stop: 0
+    - _TurnSignalSpeed: 2
+    - _UV_Shift: 0.01
+    - _Yellow_Blink: 0
+    - _Yellow_On: 0
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+    - _LightColor1: {r: 0.7264151, g: 0.1279221, b: 0.1279221, a: 1}
+    - _LightColor2: {r: 0.764151, g: 0.64201194, b: 0.18503019, a: 1}
+    - _LightColor3: {r: 0, g: 0.7169812, b: 0, a: 1}
+    - _LightColor4: {r: 0.764151, g: 0.27033645, b: 0.27033645, a: 1}
+    - _LightColor5: {r: 0.31452474, g: 0.7169812, b: 0.32969856, a: 1}
+    - _LightColor6: {r: 0.14626448, g: 0.6792453, b: 0.11961547, a: 1}
+    - _LightColor7: {r: 0.7264151, g: 0.3266583, b: 0.3266583, a: 1}
+    - _LightColor8: {r: 0, g: 0, b: 0, a: 1}
+    - _Property1: {r: 0, g: 0, b: 0, a: 0}
+    - _Property2: {r: 1, g: 0, b: 1, a: 0}
+    - _TurnColor: {r: 0.8, g: 0.39999998, b: 0, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_V_Center_Windows_Interior
+  m_Shader: {fileID: 4800000, guid: f81e6e30fb960a94a845fbdf9681c529, type: 3}
+  m_ShaderKeywords: _CORRIDOR_ON _DIRECTLIGHTING_ON _GLOBALSHADOWS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoAtlas:
+        m_Texture: {fileID: 2800000, guid: 8236c93290e3cc649956315884098528, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecorationAtlas:
+        m_Texture: {fileID: 2800000, guid: a6d74974012772f4d98770e8504aab39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionAtlas:
+        m_Texture: {fileID: 2800000, guid: 95a1bd20241067943a5ed9f91b27aa26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindowAlbedo:
+        m_Texture: {fileID: 2800000, guid: 19d622ad0991ce84eacc58308f130afb, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _WindowEmission:
+        m_Texture: {fileID: 2800000, guid: 95a1bd20241067943a5ed9f91b27aa26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindowNormal:
+        m_Texture: {fileID: 2800000, guid: 0d7f71d7c8fe4f64fa3fe3cefbdf4d5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindowRMW:
+        m_Texture: {fileID: 2800000, guid: 80588d5c57b956a4bb358fbe9f4824ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoAtlasStength: 1
+    - _AnimationSpeed: 0.47
+    - _BlindsVariations: 4
+    - _BumpScale: 1
+    - _Corridor: 1
+    - _CorridorDepth: 1.28
+    - _CorridorMaxAmbient: 0.524
+    - _CorridorMinAmbient: 0.112
+    - _Cutoff: 0.5
+    - _DecorationChance: 0.096
+    - _Decorations: 0
+    - _DepthFade: 3.53
+    - _DetailNormalMapScale: 1
+    - _DirectLighting: 1
+    - _DstBlend: 0
+    - _EmissionStength: 6.7
+    - _Fresnel: 5.78
+    - _GlobalShadows: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LinearAttenuation: 0.8
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pillars: 0
+    - _RandomSeed: 2
+    - _RefractionIntensity: 0
+    - _RoomDepth: 0.91
+    - _RoomMaxAmbient: 0.515
+    - _RoomMinAmbient: 0.097
+    - _RoomOffset: 0
+    - _RoomWidth: 6
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Sphere: 0
+    - _SquareAttenuation: 20
+    - _SrcBlend: 1
+    - _SunIntensity: 1.83
+    - _TextureUnitSize: 0.2085
+    - _UVSec: 0
+    - _U_tile: 0
+    - _V_tile: 0.243
+    - _WindowsReflectionBoost: 0.71
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionStength: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    - _EmissionTint: {r: 0.6981132, g: 0.6889328, b: 0.62237453, a: 1}
+    - _SphereColor: {r: 26.053825, g: 33.986374, b: 40.914158, a: 1}
+    - _WindowsTint: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
